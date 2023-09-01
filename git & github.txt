@@ -1,0 +1,68 @@
+git init
+
+
+
+mkdir  for create folder
+mkdir pages	(Name of the folder)
+mkdir files	(For make folder)
+
+
+cd files	(to go inside  (filesfolder))	
+
+
+touch hamza.html
+touch hamza.css
+
+code .			(for vs code)
+
+
+
+git status
+
+
+git add hamza.html		(to add file)
+git add hamza.css		(to add file)
+
+git add -A			(to add  all files & folder)
+
+
+git commit -m "files added"
+
+
+
+
+
+git checkout hamza.html		(to bring the save file back which is not commit yet)
+
+
+cd pages		(For change directory pages)
+
+
+touch pages.html  	(for create html)
+
+
+cd ..			(for back folder)
+cd ..			(for back folder)
+
+
+
+git rm hamza.html	(if you want to remove file		after add and commit)	
+
+
+
+ls			(for list)
+
+
+
+git config --global user.name "Insert Username"			(1 time use this command to create your repository)
+git config --global user.email "Insert User email"		(1 time use this command to create your repository)
+
+
+
+
+
+
+
+github push origin main
+
+
